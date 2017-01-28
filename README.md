@@ -6,3 +6,8 @@
  
 # Table of Contents
  - [Example of List Comprehensions](http://www.secnetix.de/olli/Python/list_comprehensions.hawk)
+ 
+# Good Articles
+ - [Understand of underscore](https://mingrammer.com/underscore-in-python)
+ 
+ 
