@@ -13,7 +13,7 @@ def normalize(numbers):
     total = sum(numbers)
     result = []
     for v in numbers:
-        percent = 100 * v / total
+        percent = int(100 * v / total)
         result.append(percent)
     return result
 
@@ -28,7 +28,7 @@ def normalize_copy(numbers):
     total = sum(numbers)
     result = []
     for v in numbers:
-        percent = 100 * v / total
+        percent = int(100 * v / total)
         result.append(percent)
     return result
 
@@ -41,20 +41,20 @@ def normalize_func(get_iter):
     total = sum(get_iter())
     result = []
     for v in get_iter():
-        percent = 100 * v / total
+        percent = int(100 * v / total)
         result.append(percent)
     return result
 
 
 def normalize_defensive(numbers):
-    """ 추천하는 방어적인 코등 방법 """
+    """ 추천하는 방어적인 코딩 방법 """
     if iter(numbers) is iter(numbers):
         raise TypeError('Must supply a container')
 
     total = sum(numbers)
     result = []
     for v in numbers:
-        percent = 100 * v / total
+        percent = int(100 * v / total)
         result.append(percent)
     return result
 

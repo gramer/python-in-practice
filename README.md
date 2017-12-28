@@ -1,14 +1,13 @@
 # Practice Python Example
+=========================
 
-[![Build Status](https://travis-ci.org/gramer/python-in-practice.svg?branch=master)](https://travis-ci.org/gramer/python-in-practice)
+[![Build Status](https://travis-ci.org/gramer/python-in-practice.svg?branch=master)](https://travis-ci.org/gramer/python-in-practice) 
 
 ## Python project structure
-
  - [Structuring Your Project](http://docs.python-guide.org/en/latest/writing/structure)
 
 ## Test
- - nosetests for coverage
- - `nosetests --cover-branches --with-coverage --cover-erase --cover-package=practice --cover-html --cover-tests`
+ - `make test`
 
 ## Thinking of python 
  - `import this`

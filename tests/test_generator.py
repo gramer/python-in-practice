@@ -1,5 +1,5 @@
 import unittest
-from types import ListType, GeneratorType
+from types import GeneratorType
 
 from practice.generator import *
 
@@ -8,7 +8,7 @@ class TestGenerator(unittest.TestCase):
     def test_index_word(self):
         address = 'Four score and seven years ago'
         result = index_word(address)[:3]
-        self.assertTrue(type(result) is ListType)
+        self.assertTrue(type(result) is list)
         self.assertListEqual(result, [0, 5, 11])
 
     def test_index_word_iter(self):
