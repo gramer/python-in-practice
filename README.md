@@ -20,3 +20,4 @@
  - [Good Git Commit Message](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
  - [PythonTestingToolsTaxonomy](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
  - [Python Debugger](https://github.com/spiside/pdb-tutorial)
+ - [12 Factors](https://12factor.net/ko/)
