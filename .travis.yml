@@ -3,6 +3,8 @@ python:
   - "2.7"
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install pipenv
+  - pipenv install -e .
+
 # command to run tests
-script: nosetests --cover-branches --with-coverage --cover-erase --cover-package=practice --cover-html --cover-tests
+script: make test
